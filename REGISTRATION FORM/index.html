@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration form</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="script.js"></script>
+    </head>
+ <body>
+    <div class="ff">
+        <div class="form">
+            
+                <div class="container">
+                    <h1> Student Registration Form</h1>
+    
+                    <hr>
+    
+                    <label for="email"><b>First Name</b></label>
+                    <input type="text" placeholder="Enter First Name" name="fstname" id="fname" required>
+    
+                    <label for="email"><b>Last Name</b></label>
+                    <input type="text" placeholder="Enter Last Name" name="lstname" id="lname" required>
+    
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    
+                    Course<br>B.tech<input type="radio"name="myCourse">M.tech<input type="radio"name="myCourse">MBA<input type="radio"name="myCourse">
+                    <br>
+                    <br>
+        <select name ="myBranch"id=branch>
+            <option value ="CSE">CSE</option>
+            <option value="IT">IT</option>
+            <option value="Civil">Civil</option>
+            <option value="Electrical">Electrical</option>
+            <option value="Electronic">Electronic</option>
+            <option value="Machanical">Machanical</option>
+        </select>
+        <br>
+
+                    <hr>
+                    <label for="email"><b>College</b></label>
+                    <input type="text" placeholder="Enter College Name" name="college" id="college" required>
+
+                    <label for="number"><b>number</b></label>
+                    <input type="number" placeholder="Enter mobile no." name="number" id="number" required>
+                    <br>
+                    <hr>
+                    Gender<br>male<input type="radio"name="mygender">female<input type="radio"name="mygender">other<input type="radio"name="mygender">
+                    <br>
+                    <hr>
+                    Skills<br>Java<input type="radio"name="mySkills">HTML<input type="radio"name="mySkills">CSS<input type="radio"name="mySkills">
+                    <br>
+                    <hr>
+                    Password<br><input type="password"placeholder="Enter password"name="mypassword">
+                    <hr>
+    
+    
+                    <button class="registerbtn" onclick="AddRow()" id="btn">Register</button>
+                    
+                </div>
+    
+            
+        </div>
+        <div class="form">
+            <table border="4" id="show">
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>collage</th>
+                        
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    
+    </div>
+    
+</body>
