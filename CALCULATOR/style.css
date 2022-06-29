@@ -1,0 +1,72 @@
+html,body{
+  height: 10px;;
+  width: 100%;
+  background-image: url("math.jpg");
+  height: 10vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.button{
+  width: 85px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 45px;
+  margin: 10px 10px;
+  border: 2px solid rgb(76, 240, 240);
+  color: rgb(30, 20, 33);
+  font-size: 35px;
+  border-radius: 9px;
+  cursor: pointer;
+  background-color: rgb(102, 170, 193);
+  }
+  .btn-equal{
+    background: color rgb(44, 100, 81);
+    color: azure;
+  }
+  .btn-top{
+   background-color: #6f6f6f;
+  }
+.row{
+  margin: 10px 10px;
+}
+.row input{
+  width: 400px;
+  margin: 10px;
+  margin-top: 30px;
+  padding: 15px 0;
+  padding-top: 40px;
+  border: 5px  solid rgb(33, 157, 147);
+  border-radius: 20px;
+  font-size: 25px;
+  background-color: rgb(40, 157, 148);
+
+  
+}
+.text-center{
+  text-align: center;
+
+
+}
+.bg-white{
+  background:white;
+  background-size: contain;
+  border-radius: 40px;
+   border : 10px solid black;
+
+}
+.mx-auto{
+  margin: auto;
+}
+.m-w-20{
+  max-width: 30vw;
+}
+.flax{
+  display:flex;
+}
+.flax-col{
+  flex-direction: column;
+}
+.items-center{
+  align-items: center;
+}
